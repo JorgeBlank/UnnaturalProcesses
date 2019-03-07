@@ -1,0 +1,44 @@
+#N canvas 43 -12 1317 647 10;
+#X obj 16 155 mrtogs;
+#X obj 16 227 mrkeys;
+#X obj 365 124 bng 30 250 50 0 empty empty empty 17 7 0 10 -262144
+-128992 -162280;
+#X obj 405 124 bng 30 250 50 0 empty empty empty 17 7 0 10 -262144
+-128992 -162280;
+#X obj 441 124 bng 30 250 50 0 empty empty empty 17 7 0 10 -262144
+-128992 -162280;
+#X obj 481 123 bng 30 250 50 0 empty empty empty 17 7 0 10 -262144
+-128992 -162280;
+#X obj 518 123 bng 30 250 50 0 empty empty empty 17 7 0 10 -262144
+-128992 -162280;
+#X obj 555 123 bng 30 250 50 0 empty empty empty 17 7 0 10 -262144
+-128992 -162280;
+#X obj 593 123 bng 30 250 50 0 empty empty empty 17 7 0 10 -262144
+-128992 -162280;
+#X obj 385 84 bng 30 250 50 0 empty empty empty 17 7 0 10 -1 -128992
+-162280;
+#X obj 423 84 bng 30 250 50 0 empty empty empty 17 7 0 10 -1 -128992
+-162280;
+#X obj 493 85 bng 30 250 50 0 empty empty empty 17 7 0 10 -1 -128992
+-162280;
+#X obj 530 85 bng 30 250 50 0 empty empty empty 17 7 0 10 -1 -128992
+-162280;
+#X obj 568 85 bng 30 250 50 0 empty empty empty 17 7 0 10 -1 -128992
+-162280;
+#X obj 932 326 netoutmaster;
+#X obj 932 299 6Sequencers_PerfModule;
+#X obj 179 299 pmmrefaceautoplay;
+#X obj 640 299 SwarmCntrlMin;
+#X obj 16 298 TheDropAndFlicker;
+#X connect 2 0 0 0;
+#X connect 3 0 0 2;
+#X connect 4 0 0 4;
+#X connect 5 0 0 5;
+#X connect 6 0 0 7;
+#X connect 7 0 0 9;
+#X connect 8 0 0 11;
+#X connect 9 0 0 1;
+#X connect 10 0 0 3;
+#X connect 11 0 0 6;
+#X connect 12 0 0 8;
+#X connect 13 0 0 10;

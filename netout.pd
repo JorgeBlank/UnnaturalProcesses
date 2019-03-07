@@ -1,0 +1,16 @@
+#N canvas 0 0 450 300 10;
+#X obj 55 30 inlet;
+#X text 94 31 comment;
+#X obj 121 30 inlet;
+#X obj 122 101 pack 0 0;
+#X obj 62 102 noteout;
+#X msg 292 45 64 100;
+#X msg 247 47 64 0;
+#X obj 144 159 s netout;
+#X connect 0 0 4 0;
+#X connect 0 0 3 0;
+#X connect 2 0 4 1;
+#X connect 2 0 3 1;
+#X connect 3 0 7 0;
+#X connect 5 0 3 0;
+#X connect 6 0 3 0;
